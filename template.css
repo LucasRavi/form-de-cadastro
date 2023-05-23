@@ -1,0 +1,50 @@
+body {
+  padding: 5px;
+  margin: 5px;
+  background-image: linear-gradient(to right, rgb(88, 135, 235), rgb(78, 24, 224));
+}
+form{
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cadastro{
+  padding: 5px;
+  margin-top: 50px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+label{
+  display: flex;
+  justify-content: center;
+}
+input[type="text"],input[type="email"],input[type="password"],input[type="date"]{
+  border-radius: 8px;
+  border-color: #000000b6;
+  height: 55px;
+  width: 342px;
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+}
+input[type="button"]{
+    border-radius: 8px;
+    border-color: #c0c0c0;
+    background-color:rgb(78, 24, 224);
+    color:white;
+    height: 55px;
+    width: 342px;
+    margin-bottom: 13px;
+    font-size: 17px;
+}
